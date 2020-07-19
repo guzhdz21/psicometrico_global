@@ -1,0 +1,1 @@
+psicometrico_global
