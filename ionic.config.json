@@ -1,0 +1,7 @@
+{
+  "name": "psicometrico_global",
+  "integrations": {
+    "cordova": {}
+  },
+  "type": "angular"
+}

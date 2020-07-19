@@ -1,0 +1,56 @@
+<ion-header no-border>
+  <ion-toolbar color="primary">
+
+    <ion-title>EXAMEN DE CONFIANZA</ion-title>
+
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+
+  <img src="assets/Logo_largo.png"/>
+
+  <ion-item color="dark" class="linea"></ion-item>
+
+  <ion-list>
+    <ion-item class="margen_lista_lados" *ngFor="let pregunta of preguntas">
+
+      <div>
+      <ion-item lines="none">  
+        <ion-label class="ion-text-wrap PreguntasYRespuestas margen_lista_arriba texto_azul">{{pregunta.preguntaTexto}}</ion-label>
+      </ion-item>
+  
+      <ion-item>
+        <ion-list>
+          <ion-radio-group required (ionChange)="radioButtonChange($event, pregunta.id)">
+            <ion-item lines="none" *ngFor="let respuesta of pregunta.respuestas">
+              <ion-radio class="colorRadio" value="{{respuesta.valor}}"></ion-radio>
+              <ion-label class="ion-text-wrap PreguntasYRespuestas margen_izquierda_30">{{respuesta.respuestaTexto}}</ion-label>
+            </ion-item>
+          </ion-radio-group>
+        </ion-list>
+      </ion-item>
+    </div>
+  
+    </ion-item>
+
+  </ion-list>
+
+<ion-row>
+  <ion-col>
+    <ion-button 
+    expand="block" 
+    color="primary" 
+    class="botonGrande"
+    (click)="testFinalizado()">Terminar</ion-button>
+  </ion-col>
+  <ion-col>
+    <ion-button 
+    expand="block" 
+    type = "reset"
+    class="botonGrandeRestablecer"
+    (click)="recarga()">Restablecer</ion-button>
+  </ion-col>
+</ion-row>
+
+</ion-content>

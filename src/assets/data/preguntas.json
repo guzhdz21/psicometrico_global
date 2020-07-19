@@ -1,0 +1,182 @@
+[
+    {
+      "id": 1,
+      "preguntaTexto": "¿Eres capaz de admitir tus propios errores?",
+      "respuestas": [{
+        "respuestaTexto": "Si",
+        "valor": 2
+      },
+      {
+      "respuestaTexto": "Segun la ocasión",
+      "valor": 1
+      },
+      {
+        "respuestaTexto": "No mucho",
+        "valor": 0
+      }]
+    },
+    {
+      "id": 2,
+      "preguntaTexto": "Si observas a un compañero de trabajo robando ¿Que harías?",
+      "respuestas": [{
+        "respuestaTexto": "Ayudarle",
+        "valor": 0
+      },
+      {
+      "respuestaTexto": "Nada",
+      "valor": 1
+      },
+      {
+        "respuestaTexto": "Lo reporto a mis superiores",
+        "valor": 2
+      }]
+    },
+    {
+        "id": 3,
+        "preguntaTexto": "En el caso de que llegarás a estropear o destruir algo en un servicio ¿Que harías?",
+        "respuestas": [{
+          "respuestaTexto": "Me hago responsable y lo pago",
+          "valor": 2
+        },
+        {
+        "respuestaTexto": "Digo que así estaba o culpo a alguien más",
+        "valor": 0
+        }]
+      },
+      {
+        "id": 4,
+        "preguntaTexto": "Si llega tu pareja o familiar contigo para pasar el rato mientras estás en un servicio ¿Que harías?",
+        "respuestas": [{
+          "respuestaTexto": "Me quedo hablando con el",
+          "valor": 0
+        },
+        {
+        "respuestaTexto": "Le pido que se retire",
+        "valor": 2
+        }]
+      },
+      {
+        "id": 5,
+        "preguntaTexto": "Si un compañero de trabajo te ofrece un trato externo a la empresa, como encubrir y mentir a superiores o ponerse de acuerdo para llegar tarde a algun servicio ¿Que harías?",
+        "respuestas": [{
+          "respuestaTexto": "Acepto el trato",
+          "valor": 0
+        },
+        {
+        "respuestaTexto": "Me la pienso si me conviene el trato",
+        "valor": 1
+        },
+        {
+        "respuestaTexto": "Rechazo su trato e informo a mis superiores",
+        "valor": 2
+        }]
+      },
+      {
+        "id": 6,
+        "preguntaTexto": "Si observas en tu servicio algun celular, jabón o cualquier objeto que no esté a la vista de nadie ¿Que harías?",
+        "respuestas": [{
+          "respuestaTexto": "Lo tomo y digo que no lo ví",
+          "valor": 0
+        },
+        {
+        "respuestaTexto": "Lo ignoro y dejo simplemente donde está",
+        "valor": 2
+        }]
+      },
+      {
+        "id": 7,
+        "preguntaTexto": "En el caso de que te surgiera un imprevisto familiar y tengas que abandonar tu servicio ¿Que harías?",
+        "respuestas": [{
+          "respuestaTexto": "Lo abandono simplemente",
+          "valor": 0
+        },
+        {
+        "respuestaTexto": "Abandono y aviso a mis superiores",
+        "valor": 2
+        }]
+      },
+      {
+        "id": 8,
+        "preguntaTexto": "Si tienes algun problema con algun compañero de trabajo ¿Que harías?",
+        "respuestas": [{
+          "respuestaTexto": "Lo ignoro o resuelvo nuestro problema pacificamente",
+          "valor": 2
+        },
+        {
+        "respuestaTexto": "Lo amenazo o agredo para resolver nuestras diferencias",
+        "valor": 0
+        }]
+      },
+      {
+        "id": 9,
+        "preguntaTexto": "En el caso de que sorprendierás a algun compañero tomando bebidas alcoholicas ¿Que harías?",
+        "respuestas": [{
+          "respuestaTexto": "Me pongo a tomar con el",
+          "valor": -1
+        },
+        {
+        "respuestaTexto": "No hago nada",
+        "valor": 1
+        },
+        {
+        "respuestaTexto": "Lo reporto a mis superiores",
+        "valor": 2
+        },
+        {
+        "respuestaTexto": "No tomaría, pero lo ayudaría a esconder las bebidas",
+        "valor": 0
+        }]
+      },
+      {
+        "id": 10,
+        "preguntaTexto": "Si llegarás tarde a un servicio y se te aplicara alguna sanción economica ¿Que harías?",
+        "respuestas": [{
+          "respuestaTexto": "Me enojo",
+          "valor": -1
+        },
+        {
+        "respuestaTexto": "Trato de excusar la impuntualidad",
+        "valor": 0
+        },
+        {
+        "respuestaTexto": "Acepto la sanción",
+        "valor": 2
+        }]
+      },
+        {
+          "id": 11,
+          "preguntaTexto": "¿Le han limitado su crédito bancario?",
+          "respuestas": [{
+            "respuestaTexto": "Si",
+            "valor": 0
+          },
+          {
+          "respuestaTexto": "Nunca",
+          "valor": 2
+          }]
+      },
+      {
+        "id": 12,
+        "preguntaTexto": "¿Alguna vez has aceptado algún soborno?",
+        "respuestas": [{
+          "respuestaTexto": "Si",
+          "valor": 0
+        },
+        {
+        "respuestaTexto": "Nunca",
+        "valor": 2
+        }]
+    },
+    {
+      "id": 13,
+      "preguntaTexto": "¿Alguna vez has dormido en turno de trabajo?",
+      "respuestas": [{
+        "respuestaTexto": "Si",
+        "valor": 0
+      },
+      {
+      "respuestaTexto": "Nunca",
+      "valor": 2
+      }]
+  }
+  ]

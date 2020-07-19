@@ -1,0 +1,75 @@
+/*
+ * App Global CSS
+ * ----------------------------------------------------------------------------
+ * Put style rules here that you want to apply globally. These styles are for
+ * the entire app and not just one component. Additionally, this file can be
+ * used as an entry point to import other CSS/Sass files to be included in the
+ * output CSS.
+ * For more information on global stylesheets, visit the documentation:
+ * https://ionicframework.com/docs/layout/global-stylesheets
+ */
+
+/* Core CSS required for Ionic components to work properly */
+@import "~@ionic/angular/css/core.css";
+
+/* Basic CSS for apps built with Ionic */
+@import "~@ionic/angular/css/normalize.css";
+@import "~@ionic/angular/css/structure.css";
+@import "~@ionic/angular/css/typography.css";
+@import '~@ionic/angular/css/display.css';
+
+/* Optional CSS utils that can be commented out */
+@import "~@ionic/angular/css/padding.css";
+@import "~@ionic/angular/css/float-elements.css";
+@import "~@ionic/angular/css/text-alignment.css";
+@import "~@ionic/angular/css/text-transformation.css";
+@import "~@ionic/angular/css/flex-utils.css";
+
+//header dimensiones
+.alert-head.sc-ion-alert-ios{
+  height: 33%;
+  background-color: #3880ff;
+}
+
+//texto del header
+.alert-title.sc-ion-alert-ios{
+  font-size: 500%;
+  margin-top: 10px;
+  color: white;
+}
+
+//dimensiones del message y el texto
+.alert-message.sc-ion-alert-ios{
+  margin-top: 70px;
+  height: 40%;
+  font-size: 500%;
+}
+
+//la alerta en general
+.alert-wrapper.sc-ion-alert-ios{
+  height: 24%;
+  width: 60%;
+  min-width: 0%;
+  max-width: 60%;
+}
+
+//seccion de botones
+.alert-button-group.sc-ion-alert-ios{
+  font-size: 90%;
+  height: 25%;
+  width: 200%;
+  display: block;
+  background-color: #23344b;
+}
+
+//botones en si
+.alert-button.sc-ion-alert-ios{
+  font-size: 90%;
+  height: 100%;
+}
+
+//texto dentro de los botones
+.alert-button-inner.sc-ion-alert-ios{
+  font-size: 450%;
+  color: white;
+}
