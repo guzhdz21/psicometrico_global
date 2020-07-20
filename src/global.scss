@@ -33,16 +33,16 @@
 
 //texto del header
 .alert-title.sc-ion-alert-ios{
-  font-size: 500%;
+  font-size: 300%;
   margin-top: 10px;
   color: white;
 }
 
 //dimensiones del message y el texto
 .alert-message.sc-ion-alert-ios{
-  margin-top: 70px;
+  margin-top: 35px;
   height: 40%;
-  font-size: 500%;
+  font-size: 270%;
 }
 
 //la alerta en general
@@ -56,7 +56,7 @@
 //seccion de botones
 .alert-button-group.sc-ion-alert-ios{
   font-size: 90%;
-  height: 25%;
+  height: 45%;
   width: 200%;
   display: block;
   background-color: #23344b;
@@ -64,12 +64,11 @@
 
 //botones en si
 .alert-button.sc-ion-alert-ios{
-  font-size: 90%;
   height: 100%;
 }
 
 //texto dentro de los botones
 .alert-button-inner.sc-ion-alert-ios{
-  font-size: 450%;
+  font-size: 200%;
   color: white;
 }

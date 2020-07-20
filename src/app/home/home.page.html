@@ -1,7 +1,7 @@
 <ion-header no-border>
   <ion-toolbar color="primary">
 
-    <ion-title>EXAMEN PSICOMETRICO</ion-title>
+    <ion-title>PSICOMETRICO</ion-title>
 
   </ion-toolbar>
 </ion-header>
@@ -25,7 +25,7 @@
           <ion-radio-group required (ionChange)="radioButtonChange($event, pregunta.id)">
             <ion-item lines="none" *ngFor="let respuesta of pregunta.respuestas">
               <ion-radio class="colorRadio" value="{{respuesta.valor}}"></ion-radio>
-              <ion-label class="ion-text-wrap PreguntasYRespuestas margen_izquierda_30">{{respuesta.respuestaTexto}}</ion-label>
+              <ion-label class="ion-text-wrap PreguntasYRespuestas margen_respuestas">{{respuesta.respuestaTexto}}</ion-label>
             </ion-item>
           </ion-radio-group>
         </ion-list>
