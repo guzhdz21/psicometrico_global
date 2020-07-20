@@ -14,23 +14,18 @@ ion-title{
 }
 
 .botonGrande{
-  height: 140px;
-  font-size: 40px;
+  height: 110px;
+  font-size: 35px;
 }
 
 .botonGrandeRestablecer{
-  height: 140px;
-  font-size: 40px;
+  height: 110px;
+  font-size: 35px;
   background-color: red;
 }
 
 .PreguntasYRespuestas{
   font-size: 30px;
-}
-
-ion-radio{
-  size: 1px;
-  --color-checked: #23344b;
 }
 
 .margen_lista_lados{
@@ -61,6 +56,9 @@ ion-radio {
   margin-top: 20px;
   width: 30px;
   height: 30px;
+  size: 30px;
+  --color-checked: #23344b;
+  margin-right: 10px;
 }
 
 .alerta {
