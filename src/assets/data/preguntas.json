@@ -99,13 +99,17 @@
         "id": 8,
         "preguntaTexto": "Si tienes algun problema con algun compañero de trabajo ¿Que harías?",
         "respuestas": [{
-          "respuestaTexto": "Lo ignoro o resuelvo nuestro problema pacificamente",
+          "respuestaTexto": "Lo resuelvo con él hablando",
           "valor": 2
         },
         {
-        "respuestaTexto": "Lo amenazo o agredo para resolver nuestras diferencias",
+        "respuestaTexto": "Tomo mala actitud contra él",
         "valor": 0
-        }]
+        },
+        {
+          "respuestaTexto": "Lo amenazo y/o agredo",
+          "valor": 0
+          }]
       },
       {
         "id": 9,
@@ -153,6 +157,10 @@
           {
           "respuestaTexto": "Nunca",
           "valor": 2
+          },
+          {
+          "respuestaTexto": "Nunca he tenido crédito bancario",
+          "valor": 2
           }]
       },
       {
@@ -163,13 +171,17 @@
           "valor": 0
         },
         {
+          "respuestaTexto": "Depende la ocasión",
+          "valor": 1
+        },
+        {
         "respuestaTexto": "Nunca",
         "valor": 2
         }]
     },
     {
       "id": 13,
-      "preguntaTexto": "¿Alguna vez has dormido en turno de trabajo?",
+      "preguntaTexto": "¿Alguna vez has dormido en horas laborales?",
       "respuestas": [{
         "respuestaTexto": "Si",
         "valor": 0

@@ -166,6 +166,9 @@ async testFinalizado(){
         if(this.respuestasContestadas[12] == 2){
           this.calificacion += .769230769;
         }
+        else if(this.respuestasContestadas[12] == 1){
+          this.calificacion += .384615385;
+        }
 
         //Pregunta 13
         if(this.respuestasContestadas[13] == 2){
