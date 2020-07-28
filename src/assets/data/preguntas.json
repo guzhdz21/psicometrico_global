@@ -108,7 +108,7 @@
         },
         {
           "respuestaTexto": "Lo amenazo y/o agredo",
-          "valor": 0
+          "valor": 1
           }]
       },
       {
@@ -155,8 +155,8 @@
             "valor": 0
           },
           {
-          "respuestaTexto": "Nunca",
-          "valor": 2
+          "respuestaTexto": "No",
+          "valor": 1
           },
           {
           "respuestaTexto": "Nunca he tenido crédito bancario",
@@ -165,7 +165,7 @@
       },
       {
         "id": 12,
-        "preguntaTexto": "¿Alguna vez has aceptado algún soborno?",
+        "preguntaTexto": "¿Aceptarías algún soborno?",
         "respuestas": [{
           "respuestaTexto": "Si",
           "valor": 0
