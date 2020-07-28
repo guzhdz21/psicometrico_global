@@ -158,7 +158,7 @@ async testFinalizado(){
         }
 
         //Pregunta 11
-        if(this.respuestasContestadas[11] == 2){
+        if(this.respuestasContestadas[11] == 2 || this.respuestasContestadas[11] == 1){
           this.calificacion += .769230769;
         }
 
