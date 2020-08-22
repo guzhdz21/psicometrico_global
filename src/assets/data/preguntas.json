@@ -92,8 +92,12 @@
         },
         {
         "respuestaTexto": "Abandono y aviso a mis superiores",
-        "valor": 2
-        }]
+        "valor": 1
+        },
+        {
+          "respuestaTexto": "Espero a que llegue mi supervisor para abandonar el servicio",
+          "valor": 2
+          }]
       },
       {
         "id": 8,
