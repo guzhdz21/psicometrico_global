@@ -7,7 +7,7 @@
         "valor": 2
       },
       {
-      "respuestaTexto": "Segun la ocasión",
+      "respuestaTexto": "Según la ocasión",
       "valor": 1
       },
       {
@@ -45,9 +45,9 @@
       },
       {
         "id": 4,
-        "preguntaTexto": "Si llega tu pareja o familiar contigo para pasar el rato mientras estás en un servicio ¿Que harías?",
+        "preguntaTexto": "Si llega tu pareja o algún familiar contigo para pasar el rato mientras estás en un servicio ¿Que harías?",
         "respuestas": [{
-          "respuestaTexto": "Me quedo hablando con el",
+          "respuestaTexto": "Me quedo hablando con el/ella el tiempo que sea necesario",
           "valor": 0
         },
         {
@@ -57,7 +57,7 @@
       },
       {
         "id": 5,
-        "preguntaTexto": "Si un compañero de trabajo te ofrece un trato externo a la empresa, como encubrir y mentir a superiores o ponerse de acuerdo para llegar tarde a algun servicio ¿Que harías?",
+        "preguntaTexto": "Si un compañero de trabajo te ofrece un trato externo a la empresa, como encubrir y mentir a superiores o ponerse de acuerdo para llegar tarde a algún servicio ¿Que harías?",
         "respuestas": [{
           "respuestaTexto": "Acepto el trato",
           "valor": 0
@@ -73,7 +73,7 @@
       },
       {
         "id": 6,
-        "preguntaTexto": "Si observas en tu servicio algun celular, jabón o cualquier objeto que no esté a la vista de nadie ¿Que harías?",
+        "preguntaTexto": "Si observas en tu servicio algún celular, jabón o cualquier objeto que no esté a la vista de nadie ¿Que harías?",
         "respuestas": [{
           "respuestaTexto": "Lo tomo y digo que no lo ví",
           "valor": 0
@@ -101,7 +101,7 @@
       },
       {
         "id": 8,
-        "preguntaTexto": "Si tienes algun problema con algun compañero de trabajo ¿Que harías?",
+        "preguntaTexto": "Si tienes algún problema con algún compañero de trabajo ¿Que harías?",
         "respuestas": [{
           "respuestaTexto": "Lo resuelvo con él hablando",
           "valor": 2
@@ -153,29 +153,25 @@
       },
         {
           "id": 11,
-          "preguntaTexto": "¿Le han limitado su crédito bancario?",
+          "preguntaTexto": "¿Cuando fue la ultima vez que robaste algo?",
           "respuestas": [{
-            "respuestaTexto": "Si",
+            "respuestaTexto": "Hace menos de un año",
             "valor": 0
           },
           {
-          "respuestaTexto": "No",
-          "valor": 1
-          },
-          {
-          "respuestaTexto": "Nunca he tenido crédito bancario",
+          "respuestaTexto": "Hace mas de un año",
           "valor": 2
           }]
       },
       {
         "id": 12,
-        "preguntaTexto": "¿Aceptarías algún soborno?",
+        "preguntaTexto": "¿Cuando fue la ultima vez que aceptaste algún soborno?",
         "respuestas": [{
-          "respuestaTexto": "Si",
+          "respuestaTexto": "Hace menos de 1 año",
           "valor": 0
         },
         {
-          "respuestaTexto": "Depende la ocasión",
+          "respuestaTexto": "Hace mas de un año",
           "valor": 1
         },
         {
